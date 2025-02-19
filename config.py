@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 20606467
+API_HASH = "bfc5a2df6d56ecfc5d25ad00d9659941"
+BOT_TOKEN = "8096700848:AAE6tGwut5EKOoVwRJVL6hsmygFLC3Ou2GE"
+MONGO_DB_URI = "mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOGGER_ID = 
-OWNER_ID = 
+LOGGER_ID = -1002298738857
+OWNER_ID = 5512860435
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -30,8 +30,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Eminence_Chat_Group")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Eminence_Chat_Group")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
